@@ -1,0 +1,1202 @@
+[
+  {
+    "emoji": "🎨",
+    "entity": "&#x1f3a8;",
+    "code": ":art:",
+    "description": {
+      "en": "Improve structure / format of the code.",
+      "ko": "구조 / 코드 포맷 개선"
+    },
+    "name": "art",
+    "semver": null,
+    "keywords": null
+  },
+  {
+    "emoji": "⚡️",
+    "entity": "&#x26a1;",
+    "code": ":zap:",
+    "description": {
+      "en": "Improve performance.",
+      "ko": "성능 개선"
+    },
+    "name": "zap",
+    "semver": "patch",
+    "keywords": null
+  },
+  {
+    "emoji": "🔥",
+    "entity": "&#x1f525;",
+    "code": ":fire:",
+    "description": {
+      "en": "Remove code or files.",
+      "ko": "코드 및 파일 제거"
+    },
+    "name": "fire",
+    "semver": null,
+    "keywords": ["delete", "삭제"]
+  },
+  {
+    "emoji": "🐛",
+    "entity": "&#x1f41b;",
+    "code": ":bug:",
+    "description": {
+      "en": "Fix a bug.",
+      "ko": "버그 수정"
+    },
+    "name": "bug",
+    "semver": "patch",
+    "keywords": null
+  },
+  {
+    "emoji": "🚑️",
+    "entity": "&#128657;",
+    "code": ":ambulance:",
+    "description": {
+      "en": "Critical hotfix.",
+      "ko": "중요하고 긴급한 수정 (핫픽스)"
+    },
+    "name": "ambulance",
+    "semver": "patch",
+    "keywords": null
+  },
+  {
+    "emoji": "✨",
+    "entity": "&#x2728;",
+    "code": ":sparkles:",
+    "description": {
+      "en": "Introduce new features.",
+      "ko": "새로운 기능 추가 및 소개"
+    },
+    "name": "sparkles",
+    "semver": "minor",
+    "keywords": ["add", "create", "write", "생성", "작성"]
+  },
+  {
+    "emoji": "📝",
+    "entity": "&#x1f4dd;",
+    "code": ":memo:",
+    "description": {
+      "en": "Add or update documentation.",
+      "ko": "문서 추가 및 변경"
+    },
+    "name": "memo",
+    "semver": null,
+    "keywords": [
+      "create",
+      "write",
+      "fix",
+      "modify",
+      "change",
+      "생성",
+      "작성",
+      "수정"
+    ]
+  },
+  {
+    "emoji": "🚀",
+    "entity": "&#x1f680;",
+    "code": ":rocket:",
+    "description": {
+      "en": "Deploy stuff.",
+      "ko": "배포"
+    },
+    "name": "rocket",
+    "semver": null,
+    "keywords": null
+  },
+  {
+    "emoji": "💄",
+    "entity": "&#ff99cc;",
+    "code": ":lipstick:",
+    "description": {
+      "en": "Add or update the UI and style files.",
+      "ko": "UI / style 파일 추가 및 변경"
+    },
+    "name": "lipstick",
+    "semver": "patch",
+    "keywords": [
+      "create",
+      "write",
+      "fix",
+      "modify",
+      "change",
+      "생성",
+      "작성",
+      "수정"
+    ]
+  },
+  {
+    "emoji": "🎉",
+    "entity": "&#127881;",
+    "code": ":tada:",
+    "description": {
+      "en": "Begin a project.",
+      "ko": "초기 커밋, 프로젝트 시작"
+    },
+    "name": "tada",
+    "semver": null,
+    "keywords": ["init", "initialize"]
+  },
+  {
+    "emoji": "✅",
+    "entity": "&#x2705;",
+    "code": ":white_check_mark:",
+    "description": {
+      "en": "Add, update, or pass tests.",
+      "ko": "테스트 추가, 변경 또는 통과"
+    },
+    "name": "white-check-mark",
+    "semver": null,
+    "keywords": [
+      "create",
+      "write",
+      "fix",
+      "modify",
+      "change",
+      "ok",
+      "생성",
+      "작성",
+      "수정"
+    ]
+  },
+  {
+    "emoji": "🔒️",
+    "entity": "&#x1f512;",
+    "code": ":lock:",
+    "description": {
+      "en": "Fix security or privacy issues.",
+      "ko": "보안 이슈 수정"
+    },
+    "name": "lock",
+    "semver": "patch",
+    "keywords": ["modify", "update", "change", "변경"]
+  },
+  {
+    "emoji": "🔐",
+    "entity": "&#x1f510;",
+    "code": ":closed_lock_with_key:",
+    "description": {
+      "en": "Add or update secrets.",
+      "ko": "암호화 추가 및 변경"
+    },
+    "name": "closed-lock-with-key",
+    "semver": null,
+    "keywords": [
+      "create",
+      "write",
+      "fix",
+      "modify",
+      "change",
+      "생성",
+      "작성",
+      "수정"
+    ]
+  },
+  {
+    "emoji": "🔖",
+    "entity": "&#x1f516;",
+    "code": ":bookmark:",
+    "description": {
+      "en": "Release / Version tags.",
+      "ko": "릴리즈 / 버전 태그"
+    },
+    "name": "bookmark",
+    "semver": null,
+    "keywords": null
+  },
+  {
+    "emoji": "🚨",
+    "entity": "&#x1f6a8;",
+    "code": ":rotating_light:",
+    "description": {
+      "en": "Fix compiler / linter warnings.",
+      "ko": "컴파일러 / 린터 경고 수정"
+    },
+    "name": "rotating-light",
+    "semver": null,
+    "keywords": ["update", "modify", "change", "변경"]
+  },
+  {
+    "emoji": "🚧",
+    "entity": "&#x1f6a7;",
+    "code": ":construction:",
+    "description": {
+      "en": "Work in progress.",
+      "ko": "작업중인 코드"
+    },
+    "name": "construction",
+    "semver": null,
+    "keywords": ["WIP"]
+  },
+  {
+    "emoji": "💚",
+    "entity": "&#x1f49a;",
+    "code": ":green_heart:",
+    "description": {
+      "en": "Fix CI Build.",
+      "ko": "CI 빌드 수정"
+    },
+    "name": "green-heart",
+    "semver": null,
+    "keywords": ["modify", "update", "change", "변경"]
+  },
+  {
+    "emoji": "⬇️",
+    "entity": "⬇️",
+    "code": ":arrow_down:",
+    "description": {
+      "en": "Downgrade dependencies.",
+      "ko": "종속성(의존성) 다운그레이드"
+    },
+    "name": "arrow-down",
+    "semver": "patch",
+    "keywords": ["change", "modify"]
+  },
+  {
+    "emoji": "⬆️",
+    "entity": "⬆️",
+    "code": ":arrow_up:",
+    "description": {
+      "en": "Upgrade dependencies.",
+      "ko": "종속성(의존성) 업그레이드"
+    },
+    "name": "arrow-up",
+    "semver": "patch",
+    "keywords": ["change", "modify"]
+  },
+  {
+    "emoji": "📌",
+    "entity": "&#x1F4CC;",
+    "code": ":pushpin:",
+    "description": {
+      "en": "Pin dependencies to specific versions.",
+      "ko": "의존성을 특정 버전에 고정"
+    },
+    "name": "pushpin",
+    "semver": "patch",
+    "keywords": null
+  },
+  {
+    "emoji": "👷",
+    "entity": "&#x1f477;",
+    "code": ":construction_worker:",
+    "description": {
+      "en": "Add or update CI build system.",
+      "ko": "CI 빌드 시스템 추가 및 변경"
+    },
+    "name": "construction-worker",
+    "semver": null,
+    "keywords": [
+      "create",
+      "write",
+      "fix",
+      "modify",
+      "change",
+      "생성",
+      "작성",
+      "수정"
+    ]
+  },
+  {
+    "emoji": "📈",
+    "entity": "&#x1F4C8;",
+    "code": ":chart_with_upwards_trend:",
+    "description": {
+      "en": "Add or update analytics or track code.",
+      "ko": "분석, 추적 코드 추가 및 변경"
+    },
+    "name": "chart-with-upwards-trend",
+    "semver": "patch",
+    "keywords": [
+      "create",
+      "write",
+      "fix",
+      "modify",
+      "change",
+      "생성",
+      "작성",
+      "수정"
+    ]
+  },
+  {
+    "emoji": "♻️",
+    "entity": "&#x267b;",
+    "code": ":recycle:",
+    "description": {
+      "en": "Refactor code.",
+      "ko": "코드 리팩토링"
+    },
+    "name": "recycle",
+    "semver": null,
+    "keywords": null
+  },
+  {
+    "emoji": "➕",
+    "entity": "&#10133;",
+    "code": ":heavy_plus_sign:",
+    "description": {
+      "en": "Add a dependency.",
+      "ko": "의존성 추가"
+    },
+    "name": "heavy-plus-sign",
+    "semver": "patch",
+    "keywords": ["package", "library", "패키지", "라이브러리"]
+  },
+  {
+    "emoji": "➖",
+    "entity": "&#10134;",
+    "code": ":heavy_minus_sign:",
+    "description": {
+      "en": "Remove a dependency.",
+      "ko": "의존성 제거"
+    },
+    "name": "heavy-minus-sign",
+    "semver": "patch",
+    "keywords": ["package", "library", "패키지", "라이브러리"]
+  },
+  {
+    "emoji": "🔧",
+    "entity": "&#x1f527;",
+    "code": ":wrench:",
+    "description": {
+      "en": "Add or update configuration files.",
+      "ko": "설정 파일 추가 및 변경"
+    },
+    "name": "wrench",
+    "semver": "patch",
+    "keywords": [
+      "create",
+      "write",
+      "fix",
+      "modify",
+      "change",
+      "생성",
+      "작성",
+      "수정"
+    ]
+  },
+  {
+    "emoji": "🔨",
+    "entity": "&#128296;",
+    "code": ":hammer:",
+    "description": {
+      "en": "Add or update development scripts.",
+      "ko": "개발 스크립트 추가 및 변경"
+    },
+    "name": "hammer",
+    "semver": null,
+    "keywords": [
+      "create",
+      "write",
+      "fix",
+      "modify",
+      "change",
+      "생성",
+      "작성",
+      "수정"
+    ]
+  },
+  {
+    "emoji": "🌐",
+    "entity": "&#127760;",
+    "code": ":globe_with_meridians:",
+    "description": {
+      "en": "Internationalization and localization.",
+      "ko": "국제화 및 지역화"
+    },
+    "name": "globe-with-meridians",
+    "semver": "patch",
+    "keywords": null
+  },
+  {
+    "emoji": "✏️",
+    "entity": "&#59161;",
+    "code": ":pencil2:",
+    "description": {
+      "en": "Fix typos.",
+      "ko": "오타 수정"
+    },
+    "name": "pencil2",
+    "semver": "patch",
+    "keywords": ["modify", "change", "변경"]
+  },
+  {
+    "emoji": "💩",
+    "entity": "&#58613;",
+    "code": ":poop:",
+    "description": {
+      "en": "Write bad code that needs to be improved.",
+      "ko": "개선이 필요한 나쁜 코드 작성"
+    },
+    "name": "poop",
+    "semver": null,
+    "keywords": ["add", "create", "생성", "추가"]
+  },
+  {
+    "emoji": "⏪️",
+    "entity": "&#9194;",
+    "code": ":rewind:",
+    "description": {
+      "en": "Revert changes.",
+      "ko": "변경 사항 되돌리기"
+    },
+    "name": "rewind",
+    "semver": "patch",
+    "keywords": ["back"]
+  },
+  {
+    "emoji": "🔀",
+    "entity": "&#128256;",
+    "code": ":twisted_rightwards_arrows:",
+    "description": {
+      "en": "Merge branches.",
+      "ko": "브랜치 병합"
+    },
+    "name": "twisted-rightwards-arrows",
+    "semver": null,
+    "keywords": null
+  },
+  {
+    "emoji": "📦️",
+    "entity": "&#1F4E6;",
+    "code": ":package:",
+    "description": {
+      "en": "Add or update compiled files or packages.",
+      "ko": "컴파일된 파일, 패키지 추가 및 변경"
+    },
+    "name": "package",
+    "semver": "patch",
+    "keywords": [
+      "create",
+      "write",
+      "fix",
+      "modify",
+      "change",
+      "생성",
+      "작성",
+      "수정"
+    ]
+  },
+  {
+    "emoji": "👽️",
+    "entity": "&#1F47D;",
+    "code": ":alien:",
+    "description": {
+      "en": "Update code due to external API changes.",
+      "ko": "외부 API 변경으로 인한 코드 업데이트"
+    },
+    "name": "alien",
+    "semver": "patch",
+    "keywords": [
+      "fix",
+      "modify",
+      "upgrade",
+      "downgrade",
+      "수정",
+      "업그레이드",
+      "다운그레이드"
+    ]
+  },
+  {
+    "emoji": "🚚",
+    "entity": "&#1F69A;",
+    "code": ":truck:",
+    "description": {
+      "en": "Move or rename resources (e.g.: files, paths, routes).",
+      "ko": "파일, 경로, 라우트 등 리소스 이동 변 이름 변경"
+    },
+    "name": "truck",
+    "semver": null,
+    "keywords": ["fix", "modify", "update", "change", "수정"]
+  },
+  {
+    "emoji": "📄",
+    "entity": "&#1F4C4;",
+    "code": ":page_facing_up:",
+    "description": {
+      "en": "Add or update license.",
+      "ko": "라이센스 추가 및 변경"
+    },
+    "name": "page-facing-up",
+    "semver": null,
+    "keywords": ["fix", "modify", "change", "수정"]
+  },
+  {
+    "emoji": "💥",
+    "entity": "&#x1f4a5;",
+    "code": ":boom:",
+    "description": {
+      "en": "Introduce breaking changes.",
+      "ko": "호환성 깨뜨리는 변경사항"
+    },
+    "name": "boom",
+    "semver": "major",
+    "keywords": ["fix", "update", "modify"]
+  },
+  {
+    "emoji": "🍱",
+    "entity": "&#1F371",
+    "code": ":bento:",
+    "description": {
+      "en": "Add or update assets.",
+      "ko": "에셋 추가 및 변경"
+    },
+    "name": "bento",
+    "semver": "patch",
+    "keywords": [
+      "create",
+      "write",
+      "fix",
+      "change",
+      "modify",
+      "생성",
+      "작성",
+      "수정"
+    ]
+  },
+  {
+    "emoji": "♿️",
+    "entity": "&#9855;",
+    "code": ":wheelchair:",
+    "description": {
+      "en": "Improve accessibility.",
+      "ko": "접근성 개선"
+    },
+    "name": "wheelchair",
+    "semver": "patch",
+    "keywords": null
+  },
+  {
+    "emoji": "💡",
+    "entity": "&#128161;",
+    "code": ":bulb:",
+    "description": {
+      "en": "Add or update comments in source code.",
+      "ko": "소스 코드 내 주석 추가 및 변경"
+    },
+    "name": "bulb",
+    "semver": null,
+    "keywords": [
+      "create",
+      "write",
+      "fix",
+      "modify",
+      "change",
+      "생성",
+      "작성",
+      "수정"
+    ]
+  },
+  {
+    "emoji": "🍻",
+    "entity": "&#x1f37b;",
+    "code": ":beers:",
+    "description": {
+      "en": "Write code drunkenly.",
+      "ko": "술 취한 상태로 코드 작성"
+    },
+    "name": "beers",
+    "semver": null,
+    "keywords": [
+      "add",
+      "create",
+      "fix",
+      "modify",
+      "change",
+      "생성",
+      "추가",
+      "수정"
+    ]
+  },
+  {
+    "emoji": "💬",
+    "entity": "&#128172;",
+    "code": ":speech_balloon:",
+    "description": {
+      "en": "Add or update text and literals.",
+      "ko": "텍스트 및 문자열 추가 업데이트"
+    },
+    "name": "speech-balloon",
+    "semver": "patch",
+    "keywords": [
+      "create",
+      "write",
+      "fix",
+      "modify",
+      "change",
+      "생성",
+      "작성",
+      "수정"
+    ]
+  },
+  {
+    "emoji": "🗃️",
+    "entity": "&#128451;",
+    "code": ":card_file_box:",
+    "description": {
+      "en": "Perform database related changes.",
+      "ko": "데이터베이스(DB)와 관련된 변경"
+    },
+    "name": "card-file-box",
+    "semver": "patch",
+    "keywords": ["fix", "modify", "update", "수정"]
+  },
+  {
+    "emoji": "🔊",
+    "entity": "&#128266;",
+    "code": ":loud_sound:",
+    "description": {
+      "en": "Add or update logs.",
+      "ko": "로그 추가 및 변경"
+    },
+    "name": "loud-sound",
+    "semver": null,
+    "keywords": [
+      "create",
+      "write",
+      "fix",
+      "modify",
+      "change",
+      "생성",
+      "작성",
+      "수정"
+    ]
+  },
+  {
+    "emoji": "🔇",
+    "entity": "&#128263;",
+    "code": ":mute:",
+    "description": {
+      "en": "Remove logs.",
+      "ko": "로그 삭제"
+    },
+    "name": "mute",
+    "semver": null,
+    "keywords": ["delete", "제거"]
+  },
+  {
+    "emoji": "👥",
+    "entity": "&#128101;",
+    "code": ":busts_in_silhouette:",
+    "description": {
+      "en": "Add or update contributor(s).",
+      "ko": "기여자 추가 및 변경"
+    },
+    "name": "busts-in-silhouette",
+    "semver": null,
+    "keywords": [
+      "create",
+      "write",
+      "fix",
+      "modify",
+      "change",
+      "생성",
+      "작성",
+      "수정"
+    ]
+  },
+  {
+    "emoji": "🚸",
+    "entity": "&#128696;",
+    "code": ":children_crossing:",
+    "description": {
+      "en": "Improve user experience / usability.",
+      "ko": "사용자 경험 향상 및 개선"
+    },
+    "name": "children-crossing",
+    "semver": "patch",
+    "keywords": null
+  },
+  {
+    "emoji": "🏗️",
+    "entity": "&#1f3d7;",
+    "code": ":building_construction:",
+    "description": {
+      "en": "Make architectural changes.",
+      "ko": "아키텍처 변경"
+    },
+    "name": "building-construction",
+    "semver": null,
+    "keywords": ["fix", "modify", "update", "수정"]
+  },
+  {
+    "emoji": "📱",
+    "entity": "&#128241;",
+    "code": ":iphone:",
+    "description": {
+      "en": "Work on responsive design.",
+      "ko": "반응형 디자인 작업"
+    },
+    "name": "iphone",
+    "semver": "patch",
+    "keywords": [
+      "add",
+      "create",
+      "write",
+      "fix",
+      "modify",
+      "change",
+      "update",
+      "delete",
+      "remove",
+      "추가",
+      "생성",
+      "작성",
+      "수정",
+      "변경",
+      "삭제",
+      "제거"
+    ]
+  },
+  {
+    "emoji": "🤡",
+    "entity": "&#129313;",
+    "code": ":clown_face:",
+    "description": {
+      "en": "Mock things.",
+      "ko": "테스트를 위한 객체 및 함수 등 Mocking"
+    },
+    "name": "clown-face",
+    "semver": null,
+    "keywords": ["test"]
+  },
+  {
+    "emoji": "🥚",
+    "entity": "&#129370;",
+    "code": ":egg:",
+    "description": {
+      "en": "Add or update an easter egg.",
+      "ko": "이스터 에그 추가 및 변경"
+    },
+    "name": "egg",
+    "semver": "patch",
+    "keywords": [
+      "create",
+      "write",
+      "fix",
+      "modify",
+      "change",
+      "생성",
+      "작성",
+      "수정"
+    ]
+  },
+  {
+    "emoji": "🙈",
+    "entity": "&#8bdfe7;",
+    "code": ":see_no_evil:",
+    "description": {
+      "en": "Add or update a .gitignore file.",
+      "ko": ".gitignore 파일 추가 및 변경"
+    },
+    "name": "see-no-evil",
+    "semver": null,
+    "keywords": [
+      "create",
+      "write",
+      "fix",
+      "modify",
+      "change",
+      "생성",
+      "작성",
+      "수정"
+    ]
+  },
+  {
+    "emoji": "📸",
+    "entity": "&#128248;",
+    "code": ":camera_flash:",
+    "description": {
+      "en": "Add or update snapshots.",
+      "ko": "스냅샷 추가 및 변경"
+    },
+    "name": "camera-flash",
+    "semver": null,
+    "keywords": [
+      "create",
+      "write",
+      "fix",
+      "modify",
+      "change",
+      "생성",
+      "작성",
+      "수정"
+    ]
+  },
+  {
+    "emoji": "⚗️",
+    "entity": "&#x2697;",
+    "code": ":alembic:",
+    "description": {
+      "en": "Perform experiments.",
+      "ko": "실험"
+    },
+    "name": "alembic",
+    "semver": "patch",
+    "keywords": null
+  },
+  {
+    "emoji": "🔍️",
+    "entity": "&#128269;",
+    "code": ":mag:",
+    "description": {
+      "en": "Improve SEO.",
+      "ko": "검색 엔진 최적화"
+    },
+    "name": "mag",
+    "semver": "patch",
+    "keywords": ["search", "engine"]
+  },
+  {
+    "emoji": "🏷️",
+    "entity": "&#127991;",
+    "code": ":label:",
+    "description": {
+      "en": "Add or update types.",
+      "ko": "타입 추가 및 변경"
+    },
+    "name": "label",
+    "semver": "patch",
+    "keywords": [
+      "create",
+      "write",
+      "fix",
+      "modify",
+      "change",
+      "생성",
+      "작성",
+      "수정"
+    ]
+  },
+  {
+    "emoji": "🌱",
+    "entity": "&#127793;",
+    "code": ":seedling:",
+    "description": {
+      "en": "Add or update seed files.",
+      "ko": "시드 파일 추가 및 변경"
+    },
+    "name": "seedling",
+    "semver": null,
+    "keywords": [
+      "create",
+      "write",
+      "fix",
+      "modify",
+      "change",
+      "생성",
+      "작성",
+      "수정"
+    ]
+  },
+  {
+    "emoji": "🚩",
+    "entity": "&#x1F6A9;",
+    "code": ":triangular_flag_on_post:",
+    "description": {
+      "en": "Add, update, or remove feature flags.",
+      "ko": "기능 플래그 추가, 변경, 제거"
+    },
+    "name": "triangular-flag-on-post",
+    "semver": "patch",
+    "keywords": [
+      "create",
+      "write",
+      "fix",
+      "modify",
+      "change",
+      "생성",
+      "작성",
+      "수정",
+      "delete",
+      "삭제"
+    ]
+  },
+  {
+    "emoji": "🥅",
+    "entity": "&#x1F945;",
+    "code": ":goal_net:",
+    "description": {
+      "en": "Catch errors.",
+      "ko": "에러 처리"
+    },
+    "name": "goal-net",
+    "semver": "patch",
+    "keywords": ["try", "catch"]
+  },
+  {
+    "emoji": "💫",
+    "entity": "&#x1f4ab;",
+    "code": ":dizzy:",
+    "description": {
+      "en": "Add or update animations and transitions.",
+      "ko": "애니메이션, 화면 전환 효과 추가 및 변경"
+    },
+    "name": "dizzy",
+    "semver": "patch",
+    "keywords": [
+      "create",
+      "write",
+      "fix",
+      "modify",
+      "change",
+      "생성",
+      "작성",
+      "수정"
+    ]
+  },
+  {
+    "emoji": "🗑️",
+    "entity": "&#x1F5D1;",
+    "code": ":wastebasket:",
+    "description": {
+      "en": "Deprecate code that needs to be cleaned up.",
+      "ko": "Deprecate 된 코드 정리"
+    },
+    "name": "wastebasket",
+    "semver": "patch",
+    "keywords": ["delete", "remove", "삭제", "제거"]
+  },
+  {
+    "emoji": "🛂",
+    "entity": "&#x1F6C2;",
+    "code": ":passport_control:",
+    "description": {
+      "en": "Work on code related to authorization, roles and permissions.",
+      "ko": "인증, 역할, 권한 관련 코드 작업"
+    },
+    "name": "passport-control",
+    "semver": "patch",
+    "keywords": [
+      "add",
+      "create",
+      "write",
+      "fix",
+      "modify",
+      "change",
+      "update",
+      "delete",
+      "remove",
+      "추가",
+      "생성",
+      "작성",
+      "수정",
+      "변경",
+      "삭제",
+      "제거"
+    ]
+  },
+  {
+    "emoji": "🩹",
+    "entity": "&#x1FA79;",
+    "code": ":adhesive_bandage:",
+    "description": {
+      "en": "Simple fix for a non-critical issue.",
+      "ko": "중요하지 않은 이슈에 대한 간단한 수정"
+    },
+    "name": "adhesive-bandage",
+    "semver": "patch",
+    "keywords": ["modify", "change", "update", "변경"]
+  },
+  {
+    "emoji": "🧐",
+    "entity": "&#x1F9D0;",
+    "code": ":monocle_face:",
+    "description": {
+      "en": "Data exploration/inspection.",
+      "ko": "데이터 탐색/검사"
+    },
+    "name": "monocle-face",
+    "semver": null,
+    "keywords": ["search"]
+  },
+  {
+    "emoji": "⚰️",
+    "entity": "&#x26B0;",
+    "code": ":coffin:",
+    "description": {
+      "en": "Remove dead code.",
+      "ko": "죽은 코드 제거/삭제"
+    },
+    "name": "coffin",
+    "semver": null,
+    "keywords": ["delete"]
+  },
+  {
+    "emoji": "🧪",
+    "entity": "&#x1F9EA;",
+    "code": ":test_tube:",
+    "description": {
+      "en": "Add a failing test.",
+      "ko": "테스트를 위한 실패코드 추가"
+    },
+    "name": "test-tube",
+    "semver": null,
+    "keywords": ["create", "write", "생성", "작성"]
+  },
+  {
+    "emoji": "👔",
+    "entity": "&#128084;",
+    "code": ":necktie:",
+    "description": {
+      "en": "Add or update business logic.",
+      "ko": "비즈니스 로직 추가 및 변경"
+    },
+    "name": "necktie",
+    "semver": "patch",
+    "keywords": [
+      "create",
+      "write",
+      "fix",
+      "modify",
+      "change",
+      "생성",
+      "작성",
+      "수정"
+    ]
+  },
+  {
+    "emoji": "🩺",
+    "entity": "&#x1FA7A;",
+    "code": ":stethoscope:",
+    "description": {
+      "en": "Add or update healthcheck.",
+      "ko": "상태 검사 추가 및 변경"
+    },
+    "name": "stethoscope",
+    "semver": null,
+    "keywords": [
+      "create",
+      "write",
+      "fix",
+      "modify",
+      "change",
+      "생성",
+      "작성",
+      "수정"
+    ]
+  },
+  {
+    "emoji": "🧱",
+    "entity": "&#x1f9f1;",
+    "code": ":bricks:",
+    "description": {
+      "en": "Infrastructure related changes.",
+      "ko": "인프라 관련 변경"
+    },
+    "name": "bricks",
+    "semver": null,
+    "keywords": ["fix", "modify", "update", "수정"]
+  },
+  {
+    "emoji": "🧑‍💻",
+    "entity": "&#129489;&#8205;&#128187;",
+    "code": ":technologist:",
+    "description": {
+      "en": "Improve developer experience.",
+      "ko": "개발자 경험 개선"
+    },
+    "name": "technologist",
+    "semver": null,
+    "keywords": null
+  },
+  {
+    "emoji": "💸",
+    "entity": "&#x1F4B8;",
+    "code": ":money_with_wings:",
+    "description": {
+      "en": "Add sponsorships or money related infrastructure.",
+      "ko": "후원 또는 돈 관련 인프라 추가"
+    },
+    "name": "money-with-wings",
+    "semver": null,
+    "keywords": null
+  },
+  {
+    "emoji": "🧵",
+    "entity": "&#x1F9F5;",
+    "code": ":thread:",
+    "description": {
+      "en": "Add or update code related to multithreading or concurrency.",
+      "ko": "멀티쓰레드, 동시성 관련 코드 추가 및 변경"
+    },
+    "name": "thread",
+    "semver": null,
+    "keywords": [
+      "create",
+      "write",
+      "fix",
+      "modify",
+      "change",
+      "생성",
+      "작성",
+      "수정"
+    ]
+  },
+  {
+    "emoji": "🦺",
+    "entity": "&#x1F9BA;",
+    "code": ":safety_vest:",
+    "description": {
+      "en": "Add or update code related to validation.",
+      "ko": "검증 코드 추가 및 변경"
+    },
+    "name": "safety-vest",
+    "semver": null,
+    "keywords": [
+      "create",
+      "write",
+      "fix",
+      "modify",
+      "change",
+      "생성",
+      "작성",
+      "수정"
+    ]
+  },
+  {
+    "emoji": "✈️",
+    "entity": "&#x2708;",
+    "code": ":airplane:",
+    "description": {
+      "en": "Improve offline support.",
+      "ko": "오프라인 지원 향상"
+    },
+    "name": "airplane",
+    "semver": null,
+    "keywords": null
+  },
+  {
+    "emoji": "🐳",
+    "entity": "&#x1F40B;",
+    "code": ":whale:",
+    "description": {
+      "en": "Docker",
+      "ko": "도커 구성"
+    },
+    "name": "whale",
+    "semver": null,
+    "keywords": null
+  },
+  {
+    "emoji": "📚",
+    "entity": "&#x1F4DA;",
+    "code": ":books:",
+    "description": {
+      "en": "Add or update blog posts, articles",
+      "ko": "블로그 글 작성 및 변경"
+    },
+    "name": "books",
+    "semver": null,
+    "keywords": [
+      "create",
+      "write",
+      "fix",
+      "modify",
+      "change",
+      "생성",
+      "작성",
+      "수정"
+    ]
+  }
+]
