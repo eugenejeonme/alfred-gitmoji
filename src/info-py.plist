@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>me.eugenejeon.alfred-gitmoji</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>80C53AAA-5580-4BFF-B0B1-115558A643F6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F9818EFE-F36C-46C0-AC7A-0784DB26C3B1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>824FC723-576B-494F-8B9E-2722F4E44B9C</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>711765A5-8A8C-4C70-BCAF-4C660B5377B5</string>
+				<key>modifiers</key>
+				<integer>131072</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Eugene Jeon</string>
+	<key>description</key>
+	<string>Search for gimoji and copy them to the clipboard easily</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Gitmoji</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>F9818EFE-F36C-46C0-AC7A-0784DB26C3B1</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>824FC723-576B-494F-8B9E-2722F4E44B9C</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>gitmoji</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>workflowscript.py</string>
+				<key>subtext</key>
+				<string>Search for gitmoji and copy them to the clipboard easily</string>
+				<key>title</key>
+				<string>Search for gitmoji</string>
+				<key>type</key>
+				<integer>8</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>80C53AAA-5580-4BFF-B0B1-115558A643F6</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>711765A5-8A8C-4C70-BCAF-4C660B5377B5</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string># Gitmoji Workflow for Alfred
+
+Search for Gitmoji using Alfred.
+
+## Usage
+
+Just type `gitmoji` followed by your search query.
+
+### Modifier keys
+
+- &lt;kbd&gt;return&lt;/kbd&gt; (↵): Copy the symbol of the selected emoji) (e.g. "🐛") to your clipboard.
+- &lt;kbd&gt;option+return&lt;/kbd&gt; (⌥↵): Copy the code of the selected gitmoji (e.g. `:bug:`) directly to your front-most application.
+- &lt;kbd&gt;shift+return&lt;/kbd&gt; (⇧↵): Copy the hexadecimal HTML Entity of the selected emoji) (e.g. `&amp;#x1f41b;`) to your clipboard.</string>
+	<key>uidata</key>
+	<dict>
+		<key>711765A5-8A8C-4C70-BCAF-4C660B5377B5</key>
+		<dict>
+			<key>xpos</key>
+			<real>415</real>
+			<key>ypos</key>
+			<real>285</real>
+		</dict>
+		<key>80C53AAA-5580-4BFF-B0B1-115558A643F6</key>
+		<dict>
+			<key>xpos</key>
+			<real>130</real>
+			<key>ypos</key>
+			<real>165</real>
+		</dict>
+		<key>824FC723-576B-494F-8B9E-2722F4E44B9C</key>
+		<dict>
+			<key>xpos</key>
+			<real>415</real>
+			<key>ypos</key>
+			<real>165</real>
+		</dict>
+		<key>F9818EFE-F36C-46C0-AC7A-0784DB26C3B1</key>
+		<dict>
+			<key>xpos</key>
+			<real>425</real>
+			<key>ypos</key>
+			<real>45</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>0.1.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/eugenejeonme/alfred-gitmoji</string>
+</dict>
+</plist>
