@@ -1,6 +1,6 @@
 <div align="center">
 
-  ![icon](./src/icon.svg)
+  ![icon](./src/icon-bg-white.svg)
 
   [![Tests Coverage](https://codecov.io/gh/eugenejeonme/alfred-gitmoji/branch/main/graph/badge.svg)](https://codecov.io/gh/eugenejeonme/alfred-gitmoji)
   [![Issues](https://img.shields.io/github/issues/eugenejeonme/alfred-gitmoji?color=0088ff)](https://github.com/eugenejeonme/alfred-gitmoji/issues)
