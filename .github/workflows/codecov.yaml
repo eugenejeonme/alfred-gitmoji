@@ -1,8 +1,10 @@
 name: Run tests and upload coverage
 
 on:
+  workflow_dispatch: # 수동으로 작동
   pull_request:
     branches: ["main"]
+    types: ["opened", "edited"]
 
 jobs:
   test:
