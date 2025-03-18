@@ -1,12 +1,17 @@
 <div align="center">
 
-![icon](./src/icon.svg)
+  ![icon](./src/icon.svg)
 
-[English](https://github.com/eugenejeonme/alfred-gitmoji/blob/main/README.md)
-· [한국어](https://github.com/eugenejeonme/alfred-gitmoji/blob/main/README-ko.md)
+  [![Tests Coverage](https://codecov.io/gh/eugenejeonme/alfred-gitmoji/branch/main/graph/badge.svg)](https://codecov.io/gh/eugenejeonme/alfred-gitmoji)
+  [![Issues](https://img.shields.io/github/issues/eugenejeonme/alfred-gitmoji?color=0088ff)](https://github.com/eugenejeonme/alfred-gitmoji/issues)
+  <!-- [![GitHub pull requests](https://img.shields.io/github/issues-pr/eugenejeonme/alfred-gitmoji?color=0088ff)](https://github.com/eugenejeonme/alfred-gitmoji/pulls) -->
+  [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/eugenejeonme/alfred-gitmoji/badge)](https://scorecard.dev/viewer/?uri=github.com/eugenejeonme/alfred-gitmoji)
 
-[버그제보하기](https://github.com/eugenejeonme/alfred-gitmoji/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml)
-· [기능 추가 요청하기](https://github.com/eugenejeonme/alfred-gitmoji/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml)
+  [버그제보하기](https://github.com/eugenejeonme/alfred-gitmoji/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml)
+  · [기능 추가 요청하기](https://github.com/eugenejeonme/alfred-gitmoji/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml)
+
+  [English](https://github.com/eugenejeonme/alfred-gitmoji/blob/main/README.md)
+  · [한국어](https://github.com/eugenejeonme/alfred-gitmoji/blob/main/README-ko.md)
 
 </div>
 
