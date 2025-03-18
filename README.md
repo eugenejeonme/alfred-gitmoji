@@ -17,9 +17,9 @@
 
 ## 📖 Alfred Gitmoji Workflow
 
-![Alfred Gitmoji Thumbnail](./screenshots/thumbnail.png)
+A workflow for searching and copying [Gitmoji](https://gitmoji.dev/related-tools) in Alfred.
 
-A workflow for searching and copying Gitmoji in Alfred.
+![Alfred Gitmoji Thumbnail](./screenshots/thumbnail.png)
 
 ## 💾 Installation
 

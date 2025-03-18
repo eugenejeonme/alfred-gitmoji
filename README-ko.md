@@ -17,9 +17,9 @@
 
 ## 📖 Alfred Gitmoji Workflow
 
-![Alfred Gitmoji Thumbnail](./screenshots/thumbnail-ko.png)
+Alfred Workflow 에서 [Gitmoji](https://gitmoji.dev/related-tools) 를 검색/복사할 수 있도록 만든 것입니다.
 
-Alfred Workflow 에서 Gitmoji 를 검색/복사할 수 있도록 만든 것입니다.
+![Alfred Gitmoji Thumbnail](./screenshots/thumbnail-ko.png)
 
 ## 💾 설치방법
 
