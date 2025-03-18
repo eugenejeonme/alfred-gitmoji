@@ -1,4 +1,70 @@
-.qodo
+# Python 관련
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 가상 환경
+venv/
+ENV/
+.env
 .venv
-.vscode
+env/
+env.bak/
+venv.bak/
+
+# IDE 관련
+.idea/
+.vscode/
+*.swp
+*.swo
 .DS_Store
+
+# 테스트 관련
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.pytest_cache/
+coverage.xml
+*.cover
+.coverage.*
+nosetests.xml
+coverage/
+
+# CodeCov 관련
+codecov.yml
+.codecov
+coverage.json
+.coverage*
+
+# 예외! Alfred 워크플로우 관련
+#*.alfredworkflow
+#icons/*.png
+#icons.tar.gz
+
+# 기타
+.DS_Store
+*.log
+*.tmp
+tmp/
+.qodo

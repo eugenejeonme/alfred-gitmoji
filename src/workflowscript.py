@@ -193,5 +193,5 @@ def main():
     print(json.dumps({"items": results}, ensure_ascii=False))
     sys.stdout.flush()
 
-if __name__ == "__main__":
+if __name__ == "__main__": # pragma: no cover
     main()
